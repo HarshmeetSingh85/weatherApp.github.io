@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+body{    
+    background-color: #263859;
+    /* background-image: url('landscape.jpg');
+    background-size: cover; */
+}
+.container{    
+    display: flex;
+    justify-content: space-between;
+    margin-top:4%;
+    padding: 2%;
+}
+.icon{
+    width: 50%;
+}
+.first{
+    flex-basis: 30%;
+    position: flex;
+    align-self: flex-start;    
+    padding: 1%;
+    border-radius: 20px;
+    background: #6b778d;
+    align-items: center;
+    height: 380px;
+    width: 350px;
+    text-align: center;
+}
+.second{
+    flex-basis: 30%;
+    position: flex;
+    align-self: flex-start;
+    padding: 1%;
+    border-radius: 20px;
+    background: #6b778d;
+    align-items: center;
+    height: 380px;
+    width: 350px;
+    text-align: center;
+}
+.third{
+    flex-basis: 30%;
+    position: flex;
+    align-self: flex-start;
+    padding: 1%;
+    border-radius: 20px;
+    background:#6b778d ;/*#000000d0 */
+    align-items: center;
+    height: 380px;
+    width: 350px;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    color: #d0d1cfcb;
+    padding: 10px 0 20px;
+    font-weight:bold;
+    font-size: larger;
+}
+.img-icon{
+    align-items: center;
+    text-align: center;
+}
+.tem{
+    margin-top: 8%;
+}
+.temp{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.climate{    
+    color: aliceblue;
+    font-size: x-large;
+    font-weight:700;
+    align-items: center;
+    margin-top: 2%;
+    text-transform: capitalize;
+}
+.search{
+    width: 80%;
+    height: 12%;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 25%;
+    overflow: hidden;
+}
+.city{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bold;  
+    margin-top: 25%;  
+}
+.time{
+    margin-top: 8%;
+}
+.time,.date{
+    color: aliceblue;
+    font-size: large;
+    font-weight:700;    
+}
+.search-btn{
+    width: 27%;
+    height: 9%;
+    border-radius: 5px;
+    border: cornsilk;
+    background-color: #1f6aa7;
+    color: aliceblue;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: rgb(6, 100, 100);
+    transition: 0.5s;
+}
