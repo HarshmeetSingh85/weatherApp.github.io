@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="icons/sun.png">
+    <link rel="stylesheet" href="weather.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <div id="img-icon" class="img-icon">
+                <img id="temp-icon" class="icon" src="icons/sun.png" alt="">
+            </div>
+            <div class="tem">
+                <p><span id="temp-value" class="temp">--</span><span id="temp-unit" class="temp">℃</span></p>
+            </div>
+            <div id="climate" class="climate">
+                <p>Sunny/clear or __</p>
+            </div>
+        </div>
+
+        <div class="second">
+            <input id="search" class="search" type="search" placeholder="Enter City Name" required>
+            <br><br>
+            <button id="search-btn" class="search-btn">Search</button>
+        </div>
+
+        <div class="third">
+            <div>
+                <p id="city" class="city">📍 Location</p>
+            </div>
+            <div class="time">
+                <span id="time" class="date">Date&Time</span>
+
+                <!-- <span id="time" class="date">Time</span> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© Copyright 2022 - Harshmeet Singh</p>
+    </div>
+    <script src="weather.js" defer></script>
+</body>
+
+</html>
